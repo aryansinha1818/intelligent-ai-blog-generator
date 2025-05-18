@@ -1,5 +1,7 @@
 # AI Blog Tone Generator ✨📝
 
+https://github.com/user-attachments/assets/ec147091-1225-467c-8acc-afc2af0de97f
+
 A smart and minimal blog generation app powered by LangChain and OpenAI. This tool lets users input a topic and choose a tone (e.g., Witty, Poetic, Corporate, Creative), and instantly generates a short, tailored blog-style response.
 
 ## 🌟 Features
