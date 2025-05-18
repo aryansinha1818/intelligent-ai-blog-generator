@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ask AI</title>
+    <link rel="stylesheet" href="/stylesheets/ai.css" />
+  </head>
+  <body>
+    <h1>Ask AI ✨</h1>
+
+    <form method="POST">
+      <input type="text" name="topic" placeholder="Enter topic..." required />
+      <div class="dropdown">
+        <button class="dropbtn">Select Tone</button>
+        <div class="dropdown-content">
+          <a href="#" onclick="setTone('Creative')">Creative</a>
+          <a href="#" onclick="setTone('Witty')">Witty</a>
+          <a href="#" onclick="setTone('Corporate')">Corporate</a>
+          <a href="#" onclick="setTone('Poetic')">Poetic</a>
+        </div>
+      </div>
+      <button type="submit">Generate</button>
+    </form>
+
+    <% if (result) { %>
+    <form style="width: 100%; max-width: 600px; margin-top: 20px">
+      <textarea id="resultText" rows="6" readonly><%= result %></textarea>
+      <button type="button" id="copyBtn" onclick="copyText()">Copy</button>
+      <a href="/profile">← Back to Profile</a>
+    </form>
+    <% } %>
+
+    <script src="/javascripts/ai.js"></script>
+  </body>
+</html>
