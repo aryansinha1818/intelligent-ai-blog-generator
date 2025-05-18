@@ -22,3 +22,8 @@ A smart and minimal blog generation app powered by LangChain and OpenAI. This to
 - **Auth:** Sessions, login, and registration
 - **File Uploads:** Multer
 
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aryan-sinha-877698212/)
+
+
