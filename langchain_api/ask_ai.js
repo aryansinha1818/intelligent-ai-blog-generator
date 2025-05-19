@@ -7,7 +7,7 @@ dotenv.config({ path: path.resolve(__dirname, ".env") });
 
 const model = new ChatOpenAI({
   modelName: "gpt-3.5-turbo",
-  temperature: 0.2,
+  temperature: 1.5,
   openAIApiKey: process.env.OPENAI_API_KEY,
 });
 
